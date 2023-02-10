@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style7.css">
+  <title>Guess Number</title>
+</head>
+<body>
+  <div class="container">
+    <div class="wrapper title-wrapper">
+      <h1 class="title">Игра "Угадай число"</h1>
+    </div>
+    <div class="wrapper inputs-wrapper">
+      <div class="input-wrapper">
+        <p>Минимальное значение диапазона</p>
+        <input type="number" class="input min" placeholder="Введите минимальное значение диапазона">
+      </div>
+      <div class="input-wrapper">
+        <p>Максимальное значение диапазона</p>
+        <input type="number" class="input max" placeholder="Введите максимальное значение диапазона">
+      </div>
+      <div class="input-wrapper">
+        <p>Угадываемое число</p>
+        <input type="number" class="input number" placeholder="Введите число для сравнения с загаданным">
+      </div>
+    </div>
+    <div class="wrapper button-wrapper">
+      <button class="button check">CHECK</button>
+      <button class="button exit">EXIT</button>
+    </div>
+    <div class="wrapper text-wrapper">
+      <p class="text rules">Введите минимальную и максимальную границу диапазона. Целые числа, больше нуля</p>
+      <p class="text mistake">1</p>
+      <p class="text try"></p>
+    </div>
+  </div>
+</body>
+<script src="script7.js"></script>
+</html>
